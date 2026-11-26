@@ -1,0 +1,16 @@
+{
+  "name": "3D-схема участков",
+  "short_name": "3D-схема",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#1b3320",
+  "theme_color": "#1b3320",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
