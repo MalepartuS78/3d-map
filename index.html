@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <title>3D-схема участков</title>
   <link rel="manifest" href="./manifest.json">
-  <link rel="icon" type="image/svg+xml" href="./icon.svg">
-  <link rel="apple-touch-icon" href="./icon.svg">
+  <link rel="icon" type="image/png" href="./icon.png">
+  <link rel="apple-touch-icon" href="./icon.png">
   <meta name="theme-color" content="#1b3320">
   <style>
     html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #1b3320; }
@@ -15,5 +15,10 @@
 </head>
 <body>
   <iframe src="https://script.google.com/macros/s/AKfycbwULMbjiOG2LZHHaDi66tyjTHzaBsvS98RXjTVh8zerrT8bGRJoklEsZv1OJ83939cWSQ/exec" allow="fullscreen; camera"></iframe>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('./sw.js');
+    }
+  </script>
 </body>
 </html>
